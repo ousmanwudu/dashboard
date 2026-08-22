@@ -1,16 +1,10 @@
-import {
-  LayoutDashboard,
-  Users,
-  ShoppingCart,
-  Settings,
-  X,
-} from "lucide-react";
-
-import SidebarItems from "./SidebarItems";
-import navigation from "../constants/navigation"
+import { X } from "lucide-react";
+import SidebarItem from "./SidebarItem";
+import navigation from "../constants/navigation";
 
 function Sidebar({ open, onClose }) {
   return (
+    
     <aside
       className={`
         fixed
@@ -24,9 +18,7 @@ function Sidebar({ open, onClose }) {
         text-white
         transition-transform
         duration-300
-
         ${open ? "translate-x-0" : "-translate-x-full"}
-
         md:static
         md:translate-x-0
       `}
@@ -54,36 +46,14 @@ function Sidebar({ open, onClose }) {
 
       <nav className="mt-6">
         <ul className="space-y-2">
-
-          {navigation.map((item)=>(
-            <SidebarItems
-                key={item.label}
-                icon={item.icon}
-                label={item.label}
-                active={item?.active}
+          {navigation.map((item) => (
+            <SidebarItem
+              key={item.path}
+              icon={item.icon}
+              label={item.label}
+              path={item.path}
             />
-          ))}  
-          {/* <SidebarItems
-            icon={LayoutDashboard}
-            label="Dashboard"
-            active
-          />
-
-          <SidebarItems
-            icon={Users}
-            label="Users"
-          />
-
-          <SidebarItems
-            icon={ShoppingCart}
-            label="Orders"
-          />
-
-          <SidebarItems
-            icon={Settings}
-            label="Settings"
-          /> */}
-
+          ))}
         </ul>
       </nav>
     </aside>

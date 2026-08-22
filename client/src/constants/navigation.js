@@ -1,34 +1,39 @@
-import { Users, LayoutDashboard, ShoppingCart, Settings, Menu } from "lucide-react";
+import { Users, LayoutDashboard, ShoppingCart, Settings, FileText } from "lucide-react";
 
 
 const navigation = [
     {
         label : "Dashboard",
         icon : LayoutDashboard,
-        active : true
+        path : "/dashboard",
+         
     },
     {
         label :"Users",
         icon :Users,
-        active : false
+        path : "/users",
+         
 
     },
     {
         label :"Orders",
-        icon :ShoppingCart,
-        active : false
+        icon : ShoppingCart,
+        path : "/orders",
+         
 
     },
     {
         label : "Reports",
-        icon : Menu,
-        active : false
+        icon : FileText,
+        path : "/reports",
+         
 
     },
     {
         label : "Settings",
         icon : Settings,
-        active : false
+        path : "/settings",
+         
 
     }
 ]

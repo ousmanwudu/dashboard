@@ -376,11 +376,3 @@ Exactly opposite of:
 
 hidden md:block
 
-
-echo "# dashboard" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ousmanwudu/dashboard.git
-git push -u origin main
