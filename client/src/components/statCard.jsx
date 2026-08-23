@@ -1,10 +1,35 @@
+const variants = {
+  default: {
+    icon: "bg-gray-100 text-gray-600",
+    change: "text-gray-600",
+  },
+
+  success: {
+    icon: "bg-green-100 text-green-600",
+    change: "text-green-600",
+  },
+
+  warning: {
+    icon: "bg-yellow-100 text-yellow-600",
+    change: "text-yellow-600",
+  },
+
+  danger: {
+    icon: "bg-red-100 text-red-600",
+    change: "text-red-600",
+  },
+};
+
 function StatCard({
   title,
   value,
   change,
   description,
   icon: Icon,
+  variant = "default",
 }) {
+
+  const styles =variants[variant]
   return (
     <article
       className="
@@ -20,29 +45,21 @@ function StatCard({
       {/* Header */}
       <div className="flex items-center justify-between ">
         <p className="text-sm font-bold text-gray-500">{title}</p>
-        <div className="flex  items-center justify-center rounded-lg  bg-gray-100 size-10">
-        <Icon className="size-5 text-gray-900 " />
-
+        <div className={`flex  items-center justify-center rounded-lg size-10 ${styles.icon}`}>
+          <Icon className="size-5 text-gray-900 " />
         </div>
       </div>
-     
 
       {/* Value */}
       <div>
-        <p className="mt-4 text-2xl font-bold text-gray-500" >{value}</p>
+        <p className="mt-4 text-2xl font-bold text-gray-500">{value}</p>
       </div>
 
       {/* Footer */}
       <div className="mt-2 flex items-center gap-2 text-sm">
+        <span className={`font-medium ${styles.change}`}>{change}</span>
 
-        <span className="font-medium text-green-600">
-          {change}
-        </span>
-
-        <span className="text-gray-500">
-          {description}
-        </span>
-
+        <span className="text-gray-500">{description}</span>
       </div>
     </article>
   );
