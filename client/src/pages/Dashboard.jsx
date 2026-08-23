@@ -11,6 +11,7 @@ import {
 import StatCard from "../components/statCard";
 import Card from "../components/Card";
 import Badge from "../components/Badge";
+import IconButton from "../components/ui/IconButton";
 function Dashboard() {
   return (
     <div className="space-y-6">
@@ -38,7 +39,6 @@ function Dashboard() {
           icon={Users}
           variant="default"
         />
-
         <StatCard
           title="Total Orders"
           value="356"

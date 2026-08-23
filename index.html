@@ -7,19 +7,43 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="min-h-screen bg-gray-100 mt-4 ml-5">
-<a class="
-  relative block px-4 py-3 bg-gray-800 text-white font-medium
-  before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1
-  before:bg-blue-500 before:rounded-r
-">
-  Dashboard
-</a>
-<br>
-<a class="relative flex items-center px-4 py-3 bg-gray-800 text-white font-medium">
-  <!-- Extra structural layer explicitly added for decoration -->
-  <div class="absolute left-0 top-0 bottom-0 w-1 bg-blue-500 rounded-r"></div>
-  <span class="pl-2">Dashboard</span>
-</a>
+<div class="grid grid-cols-3 gap-4 p-4 bg-gray-50 rounded-xl">
+  <!-- Header: Spans all 3 columns -->
+  <div class="col-span-3 bg-blue-500 text-white p-4 rounded-lg font-bold text-center">
+    Header (col-span-3)
+  </div>
+
+  <!-- Sidebar: Spans 1 column default -->
+  <div class="bg-gray-200 text-gray-700 p-4 rounded-lg font-medium text-center">
+    Sidebar (1 col)
+  </div>
+
+  <!-- Main Content: Spans 2 columns -->
+  <div class="col-span-2 bg-green-500 text-white p-4 rounded-lg font-medium text-center">
+    Main Content (col-span-2)
+  </div>
+
+  <!-- Footer: Spans all 3 columns -->
+  <div class="col-span-3 bg-gray-800 text-white p-4 rounded-lg font-bold text-center">
+    Footer (col-span-3)
+  </div>
+</div>
+<div class="grid grid-rows-3 grid-flow-col gap-4 p-4 bg-gray-50 rounded-xl h-64">
+  <!-- Tall Sidebar: Spans down all 3 rows vertically -->
+  <div class="row-span-3 bg-indigo-600 text-white p-4 rounded-lg font-bold flex items-center justify-center">
+    Sidebar (row-span-3)
+  </div>
+
+  <!-- Top Right Box -->
+  <div class="bg-amber-500 text-white p-4 rounded-lg font-medium flex items-center justify-center">
+    Box 1
+  </div>
+
+  <!-- Middle Right Box: Spans 2 rows vertically -->
+  <div class="row-span-2 bg-teal-500 text-white p-4 rounded-lg font-medium flex items-center justify-center">
+    Box 2 (row-span-2)
+  </div>
+</div>
 
 
 </body>

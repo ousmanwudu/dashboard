@@ -1,5 +1,6 @@
+import Button from "../components/ui/Button";
 import UserStatCard from "../components/UserStatCard";
-import { EyeDashed } from "lucide-react";
+import { EyeDashed, Plus} from "lucide-react";
 function Users() {
   return (
     <div className="space-y-2 ">
@@ -34,6 +35,32 @@ function Users() {
           change="-23"
         />
       </section>
+      <Button type="submit">
+        Add Users
+      </Button>
+         <Button variant="ghost">
+        cancel
+      </Button>
+         <Button variant="danger">
+        delete
+      </Button>
+      <Button icon={Plus}>
+        {/* <Icon  /> */}
+        Add Users
+      </Button>
+        
+      <Button
+  variant="primary"
+  className="w-full"
+>
+  Login
+</Button>
+<Button
+  variant="primary"
+  className="bg-purple-600 hover:bg-purple-700"
+>
+  Custom Button
+</Button>
     </div>
   );
 }
