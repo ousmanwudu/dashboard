@@ -3,15 +3,12 @@ import {
   ShoppingCart,
   DollarSign,
   Clock,
-  Check,
-  X,
-  Loader,
-  Circle,
 } from "lucide-react";
-import StatCard from "../components/statCard";
-import Card from "../components/Card";
-import Badge from "../components/Badge";
-import IconButton from "../components/ui/IconButton";
+import StatCard from "./components/statCard";
+import Card from "../user/components/Card";
+import RevenueChart from "./components/RevenueChart";
+import ActivityPanel from "./components/ActivityPanel"
+import RecentOrders from "./components/RecentOrders"
 function Dashboard() {
   return (
     <div className="space-y-6">
@@ -29,7 +26,7 @@ function Dashboard() {
 
 
       {/* Stats */}
-      <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-4">
 
         <StatCard
           title="Total Users"
@@ -70,18 +67,16 @@ function Dashboard() {
 
 
       {/* Main content */}
-      <section className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+ 
 
-        <Card className="p-5 lg:col-span-2">
-          Revenue Chart
-        </Card>
+<section className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+    <RevenueChart className="lg:col-span-2" />
 
-        <Card className="p-5">
-          Recent Orders
-        </Card>
+  {/* <ActivityPanel /> */}
+  <ActivityPanel className="lg:col-span-1 lg:row-span-2" />
 
-      </section>
-
+    <RecentOrders className="lg:col-span-2"/>
+</section>
     </div>
   );
 }

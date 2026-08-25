@@ -1,0 +1,202 @@
+[
+  {
+    "order_id": "#ORD-1024",
+    "customer": "Abebe Bikila",
+    "email": "abebe.bikila@email.com",
+    "product": "Leather Messenger Bag",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 120.00,
+    "date": "2026-08-20"
+  },
+  {
+    "order_id": "#ORD-1025",
+    "customer": "Kebede Alula",
+    "email": "kebede.a@email.com",
+    "product": "Wireless Noise-Canceling Headphones",
+    "status": "Processing",
+    "payment": "Paid",
+    "amount": 250.50,
+    "date": "2026-08-21"
+  },
+  {
+    "order_id": "#ORD-1026",
+    "customer": "Gemechu Desta",
+    "email": "gemechu.desta@email.com",
+    "product": "Mechanical Gaming Keyboard",
+    "status": "Shipped",
+    "payment": "Paid",
+    "amount": 89.99,
+    "date": "2026-08-22"
+  },
+  {
+    "order_id": "#ORD-1027",
+    "customer": "Chaltu Assefa",
+    "email": "chaltu.a@email.com",
+    "product": "Ergonomic Office Chair",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 199.00,
+    "date": "2026-08-18"
+  },
+  {
+    "order_id": "#ORD-1028",
+    "customer": "Yonas Tadesse",
+    "email": "yonas.t@email.com",
+    "product": "UltraWide Desktop Monitor",
+    "status": "Cancelled",
+    "payment": "Refunded",
+    "amount": 349.99,
+    "date": "2026-08-15"
+  },
+  {
+    "order_id": "#ORD-1029",
+    "customer": "Aster Awoke",
+    "email": "aster.awoke@email.com",
+    "product": "Smart Fitness Watch",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 145.00,
+    "date": "2026-08-19"
+  },
+  {
+    "order_id": "#ORD-1030",
+    "customer": "Dawit Yohannes",
+    "email": "dawit.y@email.com",
+    "product": "Portable Bluetooth Speaker",
+    "status": "Pending",
+    "payment": "Pending",
+    "amount": 59.95,
+    "date": "2026-08-24"
+  },
+  {
+    "order_id": "#ORD-1031",
+    "customer": "Marta Hailu",
+    "email": "marta.hailu@email.com",
+    "product": "Stainless Steel Water Bottle",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 24.99,
+    "date": "2026-08-17"
+  },
+  {
+    "order_id": "#ORD-1032",
+    "customer": "Solomon Tekle",
+    "email": "solomon.t@email.com",
+    "product": "1TB External SSD",
+    "status": "Shipped",
+    "payment": "Paid",
+    "amount": 115.00,
+    "date": "2026-08-23"
+  },
+  {
+    "order_id": "#ORD-1033",
+    "customer": "Tigist Gidey",
+    "email": "tigist.g@email.com",
+    "product": "Ceramic Coffee Dripper Set",
+    "status": "Processing",
+    "payment": "Paid",
+    "amount": 42.00,
+    "date": "2026-08-23"
+  },
+  {
+    "order_id": "#ORD-1034",
+    "customer": "Bekele Mekonnen",
+    "email": "bekele.m@email.com",
+    "product": "HD Web Camera with Microphone",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 78.50,
+    "date": "2026-08-16"
+  },
+  {
+    "order_id": "#ORD-1035",
+    "customer": "Selamawit Berhe",
+    "email": "selam.b@email.com",
+    "product": "Bamboo Laptop Stand",
+    "status": "Cancelled",
+    "payment": "Failed",
+    "amount": 35.00,
+    "date": "2026-08-14"
+  },
+  {
+    "order_id": "#ORD-1036",
+    "customer": "Ephrem Tamrat",
+    "email": "ephrem.t@email.com",
+    "product": "Wireless Ergonomic Mouse",
+    "status": "Shipped",
+    "payment": "Paid",
+    "amount": 49.99,
+    "date": "2026-08-22"
+  },
+  {
+    "order_id": "#ORD-1037",
+    "customer": "Hiwot Belay",
+    "email": "hiwot.belay@email.com",
+    "product": "Dimmable LED Desk Lamp",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 29.99,
+    "date": "2026-08-19"
+  },
+  {
+    "order_id": "#ORD-1038",
+    "customer": "Tamrat Mulatu",
+    "email": "tamrat.m@email.com",
+    "product": "USB-C Multiport Adapter Hub",
+    "status": "Processing",
+    "payment": "Paid",
+    "amount": 65.00,
+    "date": "2026-08-24"
+  },
+  {
+    "order_id": "#ORD-1039",
+    "customer": "Genet Ayalew",
+    "email": "genet.a@email.com",
+    "product": "Noise-Isolating Earbuds",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 19.99,
+    "date": "2026-08-15"
+  },
+  {
+    "order_id": "#ORD-1040",
+    "customer": "Samuel Getachew",
+    "email": "samuel.g@email.com",
+    "product": "Minimalist Leather Wallet",
+    "status": "Pending",
+    "payment": "Pending",
+    "amount": 45.00,
+    "date": "2026-08-24"
+  },
+  {
+    "order_id": "#ORD-1041",
+    "customer": "Tsion Girma",
+    "email": "tsion.g@email.com",
+    "product": "Electric Milk Frother",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 15.50,
+    "date": "2026-08-18"
+  },
+  {
+    "order_id": "#ORD-1042",
+    "customer": "Daniel Worku",
+    "email": "daniel.w@email.com",
+    "product": "Waterproof Backpack",
+    "status": "Shipped",
+    "payment": "Paid",
+    "amount": 85.00,
+    "date": "2026-08-22"
+  },
+  {
+    "order_id": "#ORD-1043",
+    "customer": "Fantu Kebede",
+    "email": "fantu.k@email.com",
+    "product": "Desk Pad Protective Mat",
+    "status": "Delivered",
+    "payment": "Paid",
+    "amount": 22.00,
+    "date": "2026-08-20"
+  }
+]
