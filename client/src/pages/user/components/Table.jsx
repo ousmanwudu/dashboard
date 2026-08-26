@@ -1,4 +1,4 @@
-import order from "./order.json"
+import order from "../../../data/order.json"
 function Table (){
     return(
         <div className="overflow-x-auto border rounded-xl bg-white">

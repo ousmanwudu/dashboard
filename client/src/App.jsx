@@ -3,7 +3,7 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Users from "./pages/user/Users";
 import UserCreate from "./pages/user/UserCreate";
-import Orders from "./pages/Orders";
+import Orders from "./pages/orders/Orders";
 import Reports from "./pages/Reports";
 import Settings from "./pages/Settings";
 

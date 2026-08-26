@@ -1,4 +1,5 @@
-import Input from "../components/ui/Input";
+// import Input from "../../../components/ui/Input";
+import OrderTable from "./OrderTable";
 
 function Orders() {
   return (
@@ -10,7 +11,7 @@ function Orders() {
       <p className="mt-1 text-gray-500">
         Manage your Orders.
       </p>
-     
+     <OrderTable />
      {/* <div className="flex items-center  gap-2 border rounded-lg px-3 py-2 bg-white  focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500/20 ">
       <search className="size-5 text-gray-400 "/>
         <input 
@@ -19,9 +20,9 @@ function Orders() {
         />
      </div> */}
      {/* Input */}
-     <Input label="Full name" placeholder="enter ur name" />
+     {/* <Input label="Full name" placeholder="enter ur name" />
      <Input label="Email" placeholder="example@email.com" type="email" error="plz enter valid email" />
-     <Input label="Password" placeholder="****" type="password" />
+     <Input label="Password" placeholder="****" type="password" /> */}
     </div>
   );
 }

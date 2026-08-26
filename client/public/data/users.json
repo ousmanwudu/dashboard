@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Osman Wudu",
+    "email": "osman.wudu@example.com",
+    "role": "admin",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Amina Abebe",
+    "email": "amina.abebe@example.com",
+    "role": "customer",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Bekele Tadesse",
+    "email": "bekele.tadesse@example.com",
+    "role": "customer",
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "name": "Sara Kebede",
+    "email": "sara.kebede@example.com",
+    "role": "editor",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Dawit Tesfaye",
+    "email": "dawit.tesfaye@example.com",
+    "role": "customer",
+    "status": "inactive"
+  },
+  {
+    "id": 6,
+    "name": "Hana Hailu",
+    "email": "hana.hailu@example.com",
+    "role": "customer",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Yared Girma",
+    "email": "yared.girma@example.com",
+    "role": "admin",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Meron Worku",
+    "email": "meron.worku@example.com",
+    "role": "editor",
+    "status": "pending"
+  },
+  {
+    "id": 9,
+    "name": "Tewodros Kassaye",
+    "email": "tewodros.kassaye@example.com",
+    "role": "customer",
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "name": "Bethlehem Alemu",
+    "email": "bethlehem.alemu@example.com",
+    "role": "customer",
+    "status": "inactive"
+  },
+  {
+    "id": 11,
+    "name": "Kifle Zewde",
+    "email": "kifle.zewde@example.com",
+    "role": "customer",
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "name": "Tigist Assefa",
+    "email": "tigist.assefa@example.com",
+    "role": "editor",
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "name": "Samuel Desta",
+    "email": "samuel.desta@example.com",
+    "role": "customer",
+    "status": "pending"
+  },
+  {
+    "id": 14,
+    "name": "Helen Berhe",
+    "email": "helen.berhe@example.com",
+    "role": "customer",
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "name": "Ermias Mengistu",
+    "email": "ermias.mengistu@example.com",
+    "role": "admin",
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "name": "Lydia Tekle",
+    "email": "lydia.tekle@example.com",
+    "role": "customer",
+    "status": "inactive"
+  },
+  {
+    "id": 17,
+    "name": "Getachew Belay",
+    "email": "getachew.belay@example.com",
+    "role": "customer",
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "name": "Mahlet Fikru",
+    "email": "mahlet.fikru@example.com",
+    "role": "editor",
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "name": "Robel Solomon",
+    "email": "robel.solomon@example.com",
+    "role": "customer",
+    "status": "pending"
+  },
+  {
+    "id": 20,
+    "name": "Genet Wolde",
+    "email": "genet.wolde@example.com",
+    "role": "customer",
+    "status": "active"
+  }
+]
